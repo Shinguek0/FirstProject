@@ -61,6 +61,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
+    color: '#000',
   },
   inputContainer: {
     marginBottom: 20,

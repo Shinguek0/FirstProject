@@ -53,7 +53,10 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.display}>
+      <View style={styles.title}>        
+        <Text style={styles.titletext}>Binoladora 🤤</Text>      
+      </View>
+      <View style={styles.display}>        
         <View style={styles.math}>
           <Text style={styles.dispvalue}>{prevValue}</Text>
           <Text style={styles.dispvalue}>{operand}</Text>
@@ -159,15 +162,25 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#857B79',
+  },
+  title: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#D3D3D3',
+    width: '100%',
   },
   display: {
-    flex: 1,
+    flex: 3,
     justifyContent: 'center',
     alignItems: 'flex-end',
     backgroundColor: '#D3D3D3',
     width: '100%',
-    padding: 20,
+  },
+  titletext:{
+    color: '#000',
+    fontWeight: 'bold',
   },
   math: {
     flex: 0,
@@ -177,29 +190,31 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   dispvalue: {
-    fontSize: 25,
+    fontSize: 35,
     padding: 5,
     fontWeight: 'bold',
   },
   displayText: {
-    fontSize: 48,
+    fontSize: 58,
     fontWeight: 'bold',
   },
   buttons: {
-    flex: 2,
+    flex: 5,
     width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#857B79',
+    marginVertical: 10,
   },
   buttonRow: {
     flex: 1,
     flexDirection: 'row',
-    marginBottom: 10,
+    marginHorizontal: 5,
   },
   button: {
     flex: 1,
     marginHorizontal: 3,
-    marginVertical: 7,
+    marginVertical: 8,
     borderRadius: 15,
     backgroundColor: '#DDDDDD',
     justifyContent: 'center',
