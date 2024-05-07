@@ -186,7 +186,8 @@ const styles = StyleSheet.create({
     flex: 0,
     flexDirection: 'row',
     justifyContent: 'flex-end',
-    alignSelf: 'flex-end',    
+    alignSelf: 'flex-end',
+    paddingVertical: 25,
     width: '100%',
   },
   dispvalue: {
@@ -195,6 +196,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   displayText: {
+    padding: 25,
     fontSize: 58,
     fontWeight: 'bold',
   },
@@ -202,7 +204,6 @@ const styles = StyleSheet.create({
     flex: 5,
     width: '100%',
     justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: '#857B79',
     marginVertical: 10,
   },
