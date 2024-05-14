@@ -10,9 +10,9 @@ const App = () => {
   return (
     <View style={{ flex: 1 }}>
       {/*<HomeScreen />*/}
-      {/*<FirstPage/>*/}
+      <FirstPage/>
       {/*<Banp/>*/}
-      <Imc/>
+      {/*<Imc/>*/}
     </View>
     
   );
